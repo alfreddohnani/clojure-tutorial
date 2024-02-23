@@ -1,0 +1,438 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Reading port file: file:///Users/alfreddohnani/Documents/Dev/OCTOBER/clojure/.nrepl-port ...
+; No nrepl port file found.
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+[Ram Bashir Frank Buddha]
+nil
+clj꞉user꞉> 
+("Periyaar" "Ram" "Bashir" "Frank" "Buddha")
+clj꞉user꞉> 
+[Ram Bashir Frank Buddha]
+nil
+clj꞉user꞉> 
+; Execution error (IndexOutOfBoundsException) at user/eval1583 (REPL:75).
+; null
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+(1 2 3 4)
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval1589 (REPL:76).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+(1 2 3 4)
+clj꞉user꞉> 
+(1 2 3 4)
+clj꞉user꞉> 
+("Periyaar" "Ram" "Bashir" "Frank" "Buddha")
+clj꞉user꞉> 
+["Ram" "Bashir" "Frank" "Buddha" "Periyaar"]
+clj꞉user꞉> 
+clojure.lang.Cons
+clj꞉user꞉> 
+["Ram" "Bashir" "Frank" "Buddha" "Periyaar"]
+clj꞉user꞉> 
+clojure.lang.PersistentVector
+clj꞉user꞉> 
+clojure.lang.Cons
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval1607 (REPL:72).
+; class clojure.lang.Cons cannot be cast to class clojure.lang.IFn (clojure.lang.Cons and clojure.lang.IFn are in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+("Periyaar" "Ram" "Bashir" "Frank" "Buddha")
+clj꞉user꞉> 
+#'user/somth
+clj꞉user꞉> 
+clojure.lang.Cons
+nil
+clj꞉user꞉> 
+#'user/friends-list
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+("Bashir" "Anthony" "Buddha")
+clj꞉user꞉> 
+; Syntax error compiling at (hello_world.clj:78:1).
+; Unable to resolve symbol: typeof in this context
+clj꞉user꞉> 
+clojure.lang.PersistentList
+clj꞉user꞉> 
+clojure.lang.PersistentVector
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+"Ram"
+clj꞉user꞉> 
+"Buddha"
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval1628 (REPL:81).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+#{1 4 3 2}
+clj꞉user꞉> 
+clojure.lang.PersistentHashSet
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+; Syntax error compiling def at (hello_world.clj:84:1).
+; First argument to def must be a Symbol
+clj꞉user꞉> 
+#'user/fruits
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+"Oranges"
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+; Execution error (ArityException) at user/eval1654 (REPL:89).
+; Wrong number of args (0) passed to: clojure.lang.PersistentHashSet
+clj꞉user꞉> 
+#'user/languages
+clj꞉user꞉> 
+:ruby
+clj꞉user꞉> 
+:ruby
+clj꞉user꞉> 
+#{:clojure :python :perl :ruby}
+clj꞉user꞉> 
+#{:clojure :ruby}
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval1664 (REPL:81).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+"Frank"
+clj꞉user꞉> 
+{"name" "Bashir", "age" 12}
+clj꞉user꞉> 
+; Syntax error compiling at (hello_world.clj:96:1).
+; Unable to resolve symbol: user in this context
+clj꞉user꞉> 
+; Syntax error compiling at (hello_world.clj:96:1).
+; Unable to resolve symbol: user in this context
+clj꞉user꞉> 
+#'user/user
+clj꞉user꞉> 
+"Bashir"
+clj꞉user꞉> 
+"Bashir"
+clj꞉user꞉> 
+#'user/gee
+clj꞉user꞉> 
+"Astrid"
+clj꞉user꞉> 
+"Astrid"
+clj꞉user꞉> 
+"Astrid"
+clj꞉user꞉> 
+{:name "Astrid", :age 12, :belief "Rationalism"}
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+12
+clj꞉user꞉> 
+{:name "Astrid"}
+clj꞉user꞉> 
+(:name :age)
+clj꞉user꞉> 
+clojure.lang.APersistentMap$KeySeq
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval1694 (REPL:104).
+; class clojure.lang.APersistentMap$KeySeq cannot be cast to class clojure.lang.IFn (clojure.lang.APersistentMap$KeySeq and clojure.lang.IFn are in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+(:name :age)
+clj꞉user꞉> 
+("Astrid" 12)
+clj꞉user꞉> 
+clojure.lang.APersistentMap$ValSeq
+clj꞉user꞉> 
+-------------------------
+clojure.core/+
+([] [x] [x y] [x y & more])
+  Returns the sum of nums. (+) returns 0. Does not auto-promote
+  longs, will throw on overflow. See also: +'
+nil
+clj꞉user꞉> 
+-------------------------
+clojure.core/+
+([] [x] [x y] [x y & more])
+  Returns the sum of nums. (+) returns 0. Does not auto-promote
+  longs, will throw on overflow. See also: +'
+nil
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+42
+clj꞉user꞉> 
+-------------------------
+clojure.core/+
+([] [x] [x y] [x y & more])
+  Returns the sum of nums. (+) returns 0. Does not auto-promote
+  longs, will throw on overflow. See also: +'
+nil
+clj꞉user꞉> 
+-------------------------
+clojure.core/+
+([] [x] [x y] [x y & more])
+  Returns the sum of nums. (+) returns 0. Does not auto-promote
+  longs, will throw on overflow. See also: +'
+-------------------------
+clojure.core/+'
+([] [x] [x y] [x y & more])
+  Returns the sum of nums. (+') returns 0. Supports arbitrary precision.
+  See also: +
+nil
+clj꞉user꞉> 
+(clojure.core/replace clojure.string/re-quote-replacement clojure.string/replace clojure.string/replace-first clojure.walk/postwalk-replace clojure.walk/prewalk-replace clojure.zip/replace)
+clj꞉user꞉> 
+-------------------------
+clojure.core/replace
+([smap] [smap coll])
+  Given a map of replacement pairs and a vector/collection, returns a
+  vector/seq with any elements = a key in smap replaced with the
+  corresponding val in smap.  Returns a transducer when no collection
+  is provided.
+nil
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+5 is positive
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+-5 is negative
+nil
+clj꞉user꞉> 
+5 is postive
+there are infinite positive numbers
+nil
+clj꞉user꞉> 
+-5 is negative
+there are infinite negative numbers
+nil
+clj꞉user꞉> 
+we are winners of gold.
+champions
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+we are winners of gold.
+champions
+nil
+clj꞉user꞉> 
+when we win gold
+we win for real
+nil
+clj꞉user꞉> 
+5 is positve
+nil
+clj꞉user꞉> 
+-5 is negative
+nil
+clj꞉user꞉> 
+0 is neither positive nor negative
+nil
+clj꞉user꞉> 
+"I don't know"
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/eval1782 (REPL:168).
+; No matching clause: 20
+clj꞉user꞉> 
+"Two"
+clj꞉user꞉> 
+"I don't know"
+clj꞉user꞉> 
+(10 20 30 40 50)
+clj꞉user꞉> 
+; Syntax error compiling def at (hello_world.clj:182:1).
+; First argument to def must be a Symbol
+clj꞉user꞉> 
+#'user/shapes
+clj꞉user꞉> 
+#'user/colors
+clj꞉user꞉> 
+("red square" "red circle" "red triangle" "red rectangle" "blue square" "blue circle" "blue triangle" "blue rectangle" "yellow square" "yellow circle" "yellow triangle" "yellow rectangle" "green square" "green circle" "green triangle" "green rectangle")
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+10
+20
+30
+40
+50
+nil
+clj꞉user꞉> 
+1
+2
+3
+4
+nil
+clj꞉user꞉> 
+#'user/say-hello
+clj꞉user꞉> 
+Hello World!
+nil
+clj꞉user꞉> 
+#'user/say-hello
+clj꞉user꞉> 
+Hello Alfred !
+nil
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+153.93804002589985
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/circle-area (REPL:225).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/circle-area (REPL:225).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+153.93804002589985
+clj꞉user꞉> 
+#'user/circle-area
+clj꞉user꞉> 
+153.93804002589985
+clj꞉user꞉> 
+#'user/hypotenuse
+clj꞉user꞉> 
+5.0
+clj꞉user꞉> 
+; Syntax error compiling at (hello_world.clj:236:1).
+; Unable to resolve symbol: a in this context
+clj꞉user꞉> 
+#'user/multiple-args
+clj꞉user꞉> 
+No arguments passed
+nil
+clj꞉user꞉> 
+One argument passed: 1
+nil
+clj꞉user꞉> 
+Two arguments passed: 1 2
+nil
+clj꞉user꞉> 
+#'user/unlimited-args
+clj꞉user꞉> 
+Arguments: (1)
+Type of args:  clojure.lang.ArraySeq
+nil
+clj꞉user꞉> 
+Arguments: (1 2 3)
+Type of args:  clojure.lang.ArraySeq
+nil
+clj꞉user꞉> 
+#'user/at-least-one-arg
+clj꞉user꞉> 
+First argument: 2
+Other arguments: nil
+nil
+clj꞉user꞉> 
+First argument: 2
+Other arguments: (3 4)
+nil
+clj꞉user꞉> 
+#'user/count-down
+clj꞉user꞉> 
+#'user/count-down
+clj꞉user꞉> 
+5
+4
+3
+2
+1
+nil
+clj꞉user꞉> 
+#'user/count-down
+clj꞉user꞉> 
+5
+4
+3
+2
+1
+0
+nil
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+#'user/count-down
+clj꞉user꞉> 
+5
+4
+3
+2
+1
+nil
+clj꞉user꞉> 
